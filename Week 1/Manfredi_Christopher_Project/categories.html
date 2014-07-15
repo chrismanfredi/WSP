@@ -1,175 +1,155 @@
+<!-- 
+.row = Containing all of the colums in your grid
+.columns = divide your rows into sections
+
+Small Screens
+.small-#
+
+Medium Screens
+.medium-#
+
+Large Screens
+.large-#
+-->
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title> Categories </title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
     
-    <input type="text" placeholder="Search...">
-    <input type="button" value="Search">
+    <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe" width="25%" height="25%">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
+      </div>
+    </div>
 
-<nav>
-    <ul class="nav">
-       <li><a href="index.html">Home</a></li>
-	   <li><a href="categories.html">Categorites</a></li>
-	   <li><a href="cookbook.html">Cookbook</a></li>
-    </ul>
-</nav>
-
+      <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
+<!--
 <input name="login"type="button" value="Login" id="login">
     
 <input name="signup"type="button" value="Signup" id="signup">
-    
-<h2> Categories </h2>
+-->
+    <div class="row">
+      <div class="small-12 columns">   
+        <h2> Categories </h2>
+      </div>
+    </div>
+      
 
-<h3> Breakfast </h3>
-    
-<br>
-    
-<p> Eggs </p>
-    
-<br>
-    
-<p> Fruit </p>
-    
-<br>
-    
-<p> Pancakes </p>
-    
-<br>
-    
-<p> Waffles </p>
-    
-<br>
-    
-<p> French Toast </p>
-    
-<br>
-    
-<p> Sausage </p>
-    
-<br>
-    
-<p> Eggs </p>
 
-<br>
-    
-<h3> Lunch </h3>
-    
-<br>
-    
-<p> Panini </p>
-    
-<br>
-    
-<p> Burgers </p>
-    
-<br>
-    
-<p> Snacks </p>
-    
-<br>
-    
-<p> Wraps </p>
-    
-<br>
-    
-<p> Pizza </p>
-    
-<br>
-    
-<p> Ham </p>
-    
-<br>
-    
-<h3> Dinner </h3>
-    
-<br>
-    
-<p> Chicken </p>
-    
-<br>
-    
-<p> Pasta </p>
-    
-<br>
-    
-<p> Pork </p>
-    
-<br>
-    
-<p> Seafood </p>
-    
-<br>
-    
-<p> Steak </p>
-    
-<br>
-    
-<p> Turkey </p>
-    
-<br>
-    
-<h3> Healthy </h3>
-    
-<br>
-    
-<p> Salads </p>
-    
-<br>
-    
-<p> Soups </p>
-    
-<br>
-    
-<p> Gluten Free </p>
-    
-<br>
-    
-<p> Vegetarian </p>
-    
-<br>
-    
-<p> Low Calorie </p>
-    
-<br>
-    
-<p> Shakes </p>
-    
-<hr>
-    
-<h4> Categories </h4>
-    
-<h3> Burgers </h3>
-    
-<h3> Chicken </h3>
-
-<h3> Pasta </h3>
-    
-<h3> Pizza </h3>
-    
-<h3> Salad </h3>
-
-<h4> Stay Connected! </h4>
-    
-<div id="facebook">        
-<a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+    <div id="categories">
+      <div class="row">
+        <div class="small-4 columns">
+          <p> Breakfast </p>
+        </div>
+            <div class="small-4 columns">
+                <p> Lunch </p>
+            </div>
+          <div class="small-4 columns">
+                <p> Dinner </p>
+            </div>
+    </div>
+        
+      
+            <div class="row">
+        <div class="small-4 columns">
+          <p> Eggs </p>
+        </div>
+            <div class="small-4 columns">
+                <p> Pasta </p>
+            </div>
+          <div class="small-4 columns">
+                <p> Pizza </p>
+            </div>
+    </div>
+      
+            <div class="row">
+        <div class="small-4 columns">
+          <p> Fruit </p>
+        </div>
+            <div class="small-4 columns">
+                <p> Wraps </p>
+            </div>
+          <div class="small-4 columns">
+                <p> Steak </p>
+            </div>
+    </div>
+      
+            <div class="row">
+        <div class="small-4 columns">
+          <p> Omelette </p>
+        </div>
+            <div class="small-4 columns">
+                <p> Burgers </p>
+            </div>
+          <div class="small-4 columns">
+                <p> Rice </p>
+            </div>
+    </div>
+      
+            <div class="row">
+        <div class="small-4 columns">
+          <p> Toast </p>
+        </div>
+            <div class="small-4 columns">
+                <p> Soup </p>
+            </div>
+          <div class="small-4 columns">
+                <p> Chicken  </p>
+            </div>
+    </div>
 </div>
-    
-<div id="twitter">        
-<a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
-</div>
-    
-<h4> Menu </h4>
-    
-<h3> Login </h3>
-    
-<h3> Cookbook </h3>
 
-<h3> Categories </h3>
+      
+<!--
+      <div class="row">
+          
+
+<div id="socialmedia">
+
+    <div id="facebook">        
+        <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+    </div>
+    
+    <div id="twitter">        
+        <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
+    </div>
+</div>
+      
+<div id="footer"></div>
+-->
+    
+      <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+          <div id="socialmedia">
+`     <div id="facebook">        
+        <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+      </div>
+    
+      <div id="twitter">        
+        <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
+      </div>
+</div>
+      </div>
+    </div>
+
+
     
 </body>
 </html>
