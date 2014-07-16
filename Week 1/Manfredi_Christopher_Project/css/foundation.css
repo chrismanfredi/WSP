@@ -1696,7 +1696,7 @@ meta.foundation-mq-topbar {
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     .breadcrumbs > * a {
-      color: #008cba; }
+      color: black; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -2594,11 +2594,10 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: black
   text-decoration: none;
   line-height: inherit; }
-  a:hover, a:focus {
-    color: #0078a0; }
+  a:hover, a:focus { }
   a img {
     border: none; }
 
