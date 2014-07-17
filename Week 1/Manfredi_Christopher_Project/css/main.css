@@ -283,4 +283,44 @@ textarea {
     margin-left: 35px;
 }
 
+#month {
+    width: 50%;
+    float: left;
+}
 
+#day {
+    width: 50%;
+
+}
+
+#year {
+    width: 30%; 
+    float: right;
+}
+
+.form-first-name, .form-last-name {
+	width: 46%;
+}
+
+.form-last-name {
+	float: right;
+}
+
+#email {
+    width: 40%;
+
+}
+
+#com {
+    width: 30%;
+ 
+}
+
+#male, #female {
+/*    display: inline-block;*/
+    width: auto;
+}
+
+label {
+    display: inline-block;
+}

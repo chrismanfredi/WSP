@@ -1,36 +1,54 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title> Sign Up!</title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    
-    <input type="text" placeholder="Search...">
-    <input type="button" value="Search">
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Signup </title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  </head>
+  <body>
 
-<nav>
-    <ul class="nav">
+    <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
+      </div>
+    </div>
+
+
+<div id="hamburgermenu">
+    <ul id="menu">
        <li><a href="index.html">Home</a></li>
 	   <li><a href="categories.html">Categorites</a></li>
 	   <li><a href="cookbook.html">Cookbook</a></li>
     </ul>
-</nav>
+</div>
 
-<input name="login"type="button" value="Login" id="login">
-    
-<input name="signup"type="button" value="Signup" id="signup">
+      
+            <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
     
 <h2> Sign Up </h2>
     
 <!-- Form Name -->  
+      
+<div class="row">
+    <div class="small-12 columns">
 
-<label for="name">Name:</label>
+<label for="firstname">Name:</label>
 
 <input name="firstname" type="text" id="fname" placeholder="First Name" autocomplete="off" autofocus>
 
+<label for="lastname"> Last Name: </label>
 <input name="lastname" type="text" id="lname" placeholder="Last Name" autocomplete="off" autofocus>
         
 <br>
@@ -46,12 +64,12 @@
 <input name="gender" type="radio" id="female">
     
 <br>
-    
+
 <!-- Form Birthday -->   
 
 <label for="birthday">Birthday:</label>
 
-<input name="month" type="text" id="month" placeholder="Month"> / <input name="day" type="text" id="day" placeholder="Day"> / <input name="year" type="text" id="yeah" placeholder="Year">
+<input name="birthday" type="text" id="projectDueDate" class="mydatepicker">
     
 <br>
 
@@ -66,12 +84,12 @@
 <!-- Email -->  
 
 <label for="email">Email:</label>
-<input name="email" type="text" id="email" placeholder="Email"> @ <input name=".com" type="text" id=".com" placeholder=".com" > 
+<input name="email" type="text" id="email" placeholder="Email"> @ <input name=".com" type="text" id="com" placeholder=".com" > 
     
 <br>
     
 <label for="email">Re-type Email:</label>
-<input name="email" type="text" id="email" placeholder="Email"> @ <input name=".com" type="text" id=".com" placeholder=".com" > 
+<input name="email" type="text" id="email" placeholder="Email"> @ <input name=".com" type="text" id="com" placeholder=".com" > 
     
 <br>
 
@@ -101,36 +119,34 @@
 <input type="button" id="checkbox" value="Create Account">
 
 <hr>
-    
-<h4> Categories </h4>
-    
-<h3> Burgers </h3>
-    
-<h3> Chicken </h3>
 
-<h3> Pasta </h3>
     
-<h3> Pizza </h3>
+  <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+          <div id="socialmedia">
+`     <div id="facebook">        
+        <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+      </div>
     
-<h3> Salad </h3>
-
-<h4> Stay Connected! </h4>
-    
-<div id="facebook">        
-<a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+      <div id="twitter">        
+        <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
+      </div>
 </div>
-    
-<div id="twitter">        
-<a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
-</div>
-    
-<h4> Menu </h4>
-    
-<h3> Login </h3>
-    
-<h3> Cookbook </h3>
+      </div>
+    </div>
+            
 
-<h3> Categories </h3>
+        
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/vendor/modernizr.js"></script>
+         
+          <script src="js/main.js"></script>
+            <script src="js/foundation.min.js"></script>
+            <script>
+            $(document).foundation();
+            </script>
+
     
 </body>
 </html>

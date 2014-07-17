@@ -1,136 +1,126 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title> Search Results </title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    
-    <input type="text" placeholder="Search...">
-    <input type="button" value="Search">
+<!-- 
+.row = Containing all of the colums in your grid
+.columns = divide your rows into sections
 
-<nav>
-    <ul class="nav">
+Small Screens
+.small-#
+
+Medium Screens
+.medium-#
+
+Large Screens
+.large-#
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe" width="25%" height="25%">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
+      </div>
+    </div>
+      
+                  <div id="hamburgermenu">
+    <ul id="menu">
        <li><a href="index.html">Home</a></li>
 	   <li><a href="categories.html">Categorites</a></li>
 	   <li><a href="cookbook.html">Cookbook</a></li>
     </ul>
-</nav>
-
-<input name="login"type="button" value="Login" id="login">
-    
-<input name="signup"type="button" value="Signup" id="signup">
-    
-<h2> Search Results </h2>
-
-<h3> 4 Results </h3>
-    
-<h2> Total Cook Time </h2>
-    
-<label for="signup">10 - 15 Minutes </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup">20 - 25 Minutes </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup">30 - 35 Minutes </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup">40 - 45 Minutes </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup">50 - 55 Minutes </label>
-<input type="checkbox" autofocus>
-    
-<h2> Dish Type </h2>
-    
-<label for="signup"> Pasta </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup"> Seafood </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup"> Chicken </label>
-<input type="checkbox" autofocus>
-    
-<br>
-    
-<label for="signup"> Vegetarian </label>
-<input type="checkbox" autofocus>
-    
-<h2> Calories </h2>
-    
-<input name="Calories" type="Text" placeholder="From" autocomplete="off"> 
-    
-<input name="Calories" type="Text" placeholder="To" autocomplete="off">
-    
-<h2> Ingredients </h2>
-    
-<input name="Ingredients" type="Text" placeholder="Ingredient" autocomplete="off"> 
-    
-<br>
-    
-<input name="Ingredients" type="Button" value="Go!">
-    
-<h3> Don't Have An Account? </h3>
-    
-<h2> Sign Up! </h2>
-    
-<p> *Ability to save recipes to your "Cookbook"</p>
-    
-<p> *Share recipes with friends on Facebook and Twitter </p>
-    
-<p> *Recieve a free Perfect Recipe T-Shirt </p>
-    
-<input name="Email" type="Email" placeholder="Email" autocomplete="off" autofocus title="Enter Email"> 
-
-<input name="Password" type="Password" placeholder="Password" autocomplete="off" autofocus title="Enter Password">
-    
-<hr>
-    
-<h4> Categories </h4>
-    
-<h3> Burgers </h3>
-    
-<h3> Chicken </h3>
-
-<h3> Pasta </h3>
-    
-<h3> Pizza </h3>
-    
-<h3> Salad </h3>
-
-<h4> Stay Connected! </h4>
-    
-<div id="facebook">        
-<a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
 </div>
-    
-<div id="twitter">        
-<a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
-</div>
-    
-<h4> Menu </h4>
-    
-<h3> Login </h3>
-    
-<h3> Cookbook </h3>
+      
+            <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
+      
+       <div class="row">
+      <div class="small-12 columns">   
+        <h2> Search Results </h2>
+      </div>
+    </div>
+      
+      <div class="row">
+      <div class="small-12 columns">   
+        <h3> 4 Results </h3>
+      </div>
+    </div>
 
-<h3> Categories </h3>
+      
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="ex"> Pasta and Chicken 
+            </div>
+        </div>
+    </div>
+      
+          <div class="row">
+        <div class="small-12 columns">
+            <div class="ex"> Black Olive Pizza
+            </div>
+        </div>
+    </div>
+      
+          <div class="row">
+        <div class="small-12 columns">
+            <div class="ex"> Stuffed Green Peppers
+            </div>
+        </div>
+    </div>
+      
+          <div class="row">
+        <div class="small-12 columns">
+            <div class="ex"> Pasta and Shrimp
+            </div>
+        </div>
+    </div>
+      
+      <br>
+      
+      
+      
+      
+
+
+    
+      <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+          <div id="socialmedia">
+`     <div id="facebook">        
+        <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+      </div>
+    
+      <div id="twitter">        
+        <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
+      </div>
+</div>
+      </div>
+    </div>
+      
+                <script src="js/vendor/modernizr.js"></script>
+          <script src="js/jquery-1.11.1.min.js"></script>
+          <script src="js/main.js"></script>
+            <script src="js/foundation.min.js"></script>
+            <script>
+            $(document).foundation();
+            </script>
+
+
     
 </body>
 </html>

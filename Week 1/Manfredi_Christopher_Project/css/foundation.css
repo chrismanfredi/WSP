@@ -4553,8 +4553,6 @@ select {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   display: inline-block;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
   margin-bottom: 0;
   vertical-align: baseline; }
 
