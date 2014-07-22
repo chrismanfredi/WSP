@@ -71,12 +71,11 @@ h3 {
 }
 
 #search {
-    margin-top: 24px;
     margin-left: 14px;
 }
 
 #categories {
-    margin: 10px 0 0 45px;   
+    margin: 10px 0 0 170px;   
 }
 
 #mothersday1 {
@@ -133,6 +132,8 @@ div.ex {
     padding: 10px 50px;
     border: 5px solid gray;
     margin: 4% 0 0 0;
+    display:inline-block;
+    vertical-align:top;
 }
 
 /* Homepage Buttons */
@@ -263,7 +264,7 @@ textarea {
     display: block;
     padding: 3px 4px 3px;
     position: relative;
-    margin-top: 5%;
+    margin-top: 0.2%;
 }
 
 #hamburgermenu ul {
@@ -324,3 +325,198 @@ textarea {
 label {
     display: inline-block;
 }
+
+#cookbook {
+    display: inline-block;
+}
+
+#images {
+    display:inline-block;
+    vertical-align:top;
+    
+}
+
+#wrapper {
+    margin-left: 450px;   
+}
+
+
+
+
+/* #Media Queries
+================================================== */
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1440px) {
+		
+        body {
+            background-color: purple;   
+        }
+        
+        #featureditem {
+            height: 300px;
+            width: 500px;
+            margin-left: 23%;
+        }
+        
+        #nav {  
+            margin-top: 11%;
+            float: right;
+        }
+        
+        #nav li {
+            display: inline;
+        }
+        
+        #nav li a {
+            color: black;   
+        }
+        
+        #searchbar {
+            margin-top: 10%;
+        }
+        
+        #search {
+            margin-top: 32%;
+               
+        }
+        
+        #pizza {
+            height: 250px;
+            width: 500px;
+            margin: 15px 10px 0 0;
+            float: left;
+        }
+        
+        #cake {
+            height: 250px;
+            width: 300px;
+            margin: 15px 0 0 15px;
+            float: left;
+        }
+        
+        #featureditem {
+            height: 250px;
+            width: 450px;   
+            margin: 15px 10px 0 10px;
+            float: left;
+
+        }
+        
+        #grilledcheese {
+            height: 200px;
+            width: 250px;   
+        }
+        
+        #cesarsalad {
+            height: 200px;
+            width: 500px;
+        }
+        #pastafeatureditem {
+            width: 50%;
+        }
+        
+        #homepageform {
+            
+        }
+        
+        #testimage {
+             height: 250px;
+            width: 450px;   
+            margin: 15px 10px 0 0;
+            float: left;
+            clear: both;
+        }
+        
+        .detailspicturedesktop {
+            width: 900px;
+            height: 400px;
+            margin-left: 15px;
+  
+        }
+        
+        #heart {
+            width: 50px;
+            height: 40px;
+            margin-bottom: 7px
+        }
+        
+        .detailsbuttons {
+            margin-left: 150px;
+               
+        }
+        
+        #hamburgermenu {
+            width: 69.5%;
+            margin: 0 0 0 220px;
+        }
+        
+	
+	
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 1025px) {
+		
+        body {
+            background-color: green;   
+        }
+        
+        #featureditem {
+            height: 300px;
+            width: 500px;
+            margin-left: 23%;
+        }
+        
+        #searchbar {
+            margin: 43px 0 0 0;
+        }
+        
+        #search {
+            
+        }
+        
+        .detailspicturedesktop {
+            margin-left: 300px;
+            margin-top: 10px;
+  
+        }
+        
+        #wrapper {
+            margin-right: 100px
+        }
+        
+        #categories {
+            margin-right: 30%;   
+        }
+
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 640px) {
+        
+        body {
+            background-color: blue;   
+        }
+        
+         #featureditem {
+            height: ;
+            width: 500px;
+            margin-left: 0.3%;
+        }
+        
+        .detailspicturedesktop {
+           margin-right: 130px;
+            
+        }
+        
+        #perfectrecipe {
+            width: 140px;
+            height: 55px;
+            margin-bottom: 5px;
+               
+        }
+		
+
+		
+}
+
