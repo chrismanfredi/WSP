@@ -352,13 +352,14 @@ textarea {
 }
 
 #hamburgermenu.show {
-    background-color: grey;
+    background-color: white;
     cursor: pointer;
     height: 70px;
     display: block;
     padding: 3px 4px 3px;
     position: relative;
     margin-top: 0.2%;
+    width: 100%;
 }
 
 #hamburgermenu ul {
@@ -669,7 +670,6 @@ form {
         
         #hamburgermenu {
             width: 69.5%;
-            margin: 0 0 0 220px;
         }
         
         .submitcomment {
