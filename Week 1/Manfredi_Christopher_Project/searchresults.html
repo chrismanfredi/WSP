@@ -22,35 +22,37 @@ Large Screens
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    
-    <div class="row">
-      <div class="small-12 columns">
-          <div id="topbar"></div>
-          <img src="Logo/Logo.png" id="perfectrecipe" width="25%" height="25%">
-          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
-      </div>
-    </div>
       
-                  <div id="hamburgermenu">
-    <ul id="menu">
+       <!-- Desktop Size -->
+            
+       <div class="show-for-large-only">
+    
+               <div class="row">
+      <div class="large-2 columns">
+          <img src="Logo/Logo.png" id="perfectrecipe" width="110px" height="100px">
+      </div>
+      <div class="large-5 columns">
+<div id="nav">
+    <ul id="desktopnav">
        <li><a href="index.html">Home</a></li>
 	   <li><a href="categories.html">Categorites</a></li>
 	   <li><a href="cookbook.html">Cookbook</a></li>
     </ul>
 </div>
-      
-            <div class="row">
-        <div class="small-8 columns">
+          </div>
+
+        <div class="large-5 columns">
             <input type="text" placeholder="Search.." id="searchbar">
         </div>
-        <div class="small-4 columns">
+        <div class="large-2 columns">
             <input type="submit" value="Search" id="search"> 
         </div>
-    </div>
+    
+                </div>
       
        <div class="row">
       <div class="small-12 columns">   
-        <h2> Search Results </h2>
+        <h3> Search Results </h3>
       </div>
     </div>
       
@@ -62,55 +64,434 @@ Large Screens
 
       
     <div class="row">
-        <div class="small-12 columns">
-            <div class="ex"> Text Text Text
+        <div class="large-3 columns">
+            <div id="filters">
+            <h4> Total Cook Time </h4>
+            <input name="radio" type="checkbox" id="checkbox"> 10 - 15 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 20 - 25 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 30 - 35 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 40 - 45 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 50 - 55 Minutes <br>
+            <br>
+            <h4> Dish Type </h4>
+            <input name="radio" type="checkbox" id="checkbox"> 10 - 15 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 20 - 25 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 30 - 35 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 40 - 45 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 50 - 55 Minutes <br>
+                </div>
+            
             </div>
+        
+        <div class="large-6 columns">
+            <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div>Mushroom Chicken Creme Pasta</div>
+    <div> Prep Time: 20 Minutes </div>
+    <div> Cook Time: 15 Minutes </div>
+    <div> Total Time: 15 Minutes </div>
         </div>
     </div>
-      
-          <div class="row">
-        <div class="small-12 columns">
-            <div class="ex"> Text Text Text
-            </div>
+            
+            <br>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div>Mushroom Chicken Creme Pasta</div>
+    <div> Prep Time: 20 Minutes </div>
+    <div> Cook Time: 15 Minutes </div>
+    <div> Total Time: 15 Minutes </div>
         </div>
     </div>
-      
-          <div class="row">
-        <div class="small-12 columns">
-            <div class="ex"> Text Text Text
-            </div>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div>Mushroom Chicken Creme Pasta</div>
+    <div> Prep Time: 20 Minutes </div>
+    <div> Cook Time: 15 Minutes </div>
+    <div> Total Time: 15 Minutes </div>
         </div>
     </div>
-      
-          <div class="row">
-        <div class="small-12 columns">
-            <div class="ex"> Pasta and Shrimp
-            </div>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div>Mushroom Chicken Creme Pasta</div>
+    <div> Prep Time: 20 Minutes </div>
+    <div> Cook Time: 15 Minutes </div>
+    <div> Total Time: 15 Minutes </div>
         </div>
     </div>
-      
-      <br>
-      
-      
-      
-      
+            </div>
+            
+            <div class="large-3 columns">
+                <div id="signupsearchresults">
+                
+            <h5> Don't Have An Account</h5>
+            <h2> Sign Up!</h2>
+            
+            <p> *Ability to save recipes to your "Cookbook"</p>
+            
+            <p> *Share recipes with friends on Facebook and Twitter</p>
+            
+            <p> *Recieve a free Perfect Recipe T-Shirt</p>
+            
+            <input name="email" type="text" placeholder="Email">
+            
+            <input name="email" type="text" placeholder="Password">
+            
+            <input type="button" id="cookbookbutton" value="Create Account">
 
-
+        </div>
+                            
+                
+            </div>
+        </div>
     
-      <div class="row">
-      <div class="small-12 columns">
-          <div id="footer"></div>
-          <div id="socialmedia">
-`     <div id="facebook">        
+                                      <div class="row">
+                <hr>
+      <div class="large-3 columns">
+          <h4 class="footer"> Categories</h4>
+          <p class="footer"> Burgers </p>
+          <p class="footer"> Chicken </p>
+          <p class="footer"> Pasta </p>
+          <p class="footer"> Pizza </p>
+          <p class="footer"> Salad </p>
+
+      </div>
+    <div class="large-3 columns">
+        <h4 class="footer"> Social Media</h4>
+             <div id="facebook">        
         <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
       </div>
     
       <div id="twitter">        
         <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
       </div>
-</div>
+
+    </div>
+                
+                   <div class="large-3 columns">
+        <h4 class="footer"> Menu </h4>
+        <p class="footer"> Login </p>
+        <p class="footer"> Cookbook </p>
+        <p class="footer"> Categories </p>
+
+    </div>
+                
+                   <div class="large-3 columns">
+                   <a href="#"><img src="images/creative-banners-mcdonalds-make-it-better.jpg" alt="Twitter" width="250px" height="75px"></a>
+      
+
+    </div>
+            
+            </div>
+           </div>
+      
+      
+      
+      
+      
+      <!-- Desktop Size -->
+            
+       <div class="show-for-medium-only">
+ <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe" width="110px" height="250px">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
       </div>
     </div>
+      
+            <div id="hamburgermenu">
+    <ul id="menu">
+       <li><a href="index.html">Home</a></li>
+	   <li><a href="categories.html">Categorites</a></li>
+	   <li><a href="cookbook.html">Cookbook</a></li>
+    </ul>
+</div>
+
+      <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
+      
+       <div class="row">
+      <div class="small-12 columns">   
+        <h1> Search Results </h1>
+      </div>
+    </div>
+      
+      <div class="row">
+      <div class="small-12 columns">   
+        <h3> 4 Results </h3>
+      </div>
+    </div>
+
+      
+    <div class="row">
+        <div class="medium-6 columns">
+            <div id="filters">
+            <h4> Total Cook Time </h4>
+            <input name="radio" type="checkbox" id="checkbox"> 10 - 15 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 20 - 25 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 30 - 35 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 40 - 45 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 50 - 55 Minutes <br>
+            <br>
+            <h4> Dish Type </h4>
+            <input name="radio" type="checkbox" id="checkbox"> 10 - 15 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 20 - 25 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 30 - 35 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 40 - 45 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 50 - 55 Minutes <br>
+                </div>
+            
+            </div>
+        
+        <div class="medium-6 columns">
+                <div id="signupsearchresults">
+                
+            <h5> Don't Have An Account</h5>
+            <h2> Sign Up!</h2>
+            
+            <p> *Ability to save recipes to your "Cookbook"</p>
+            
+            <p> *Share recipes with friends on Facebook and Twitter</p>
+            
+            <p> *Recieve a free Perfect Recipe T-Shirt</p>
+            
+            <input name="email" type="text" placeholder="Email">
+            
+            <input name="email" type="text" placeholder="Password">
+            
+            <input type="button" id="cookbookbutton" value="Create Account">
+
+        </div>
+                            
+                
+            </div>
+        
+        <div class="medium-12 columns">
+            <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            
+            <br>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            </div>
+            
+        </div>
+    
+    <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+          <div id="socialmedia">
+`     
+              
+        <div id="facebook">        
+        <p> Facebook </p>
+      </div>
+    
+      <div id="twitter">        
+       <p> Twitter </p>
+      </div>
+</div>
+                      </div>
+                </div>
+           
+           
+           
+           </div>
+      
+      
+      <div class="show-for-small-only">
+          
+          <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe" width="110px" height="250px">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
+      </div>
+    </div>
+      
+            <div id="hamburgermenu">
+    <ul id="menu">
+       <li><a href="index.html">Home</a></li>
+	   <li><a href="categories.html">Categorites</a></li>
+	   <li><a href="cookbook.html">Cookbook</a></li>
+    </ul>
+</div>
+
+      <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
+      
+       <div class="row">
+      <div class="small-12 columns">   
+        <h1> Search Results </h1>
+      </div>
+    </div>
+      
+      <div class="row">
+      <div class="small-12 columns">   
+        <h3> 4 Results </h3>
+      </div>
+    </div>
+
+      
+    <div class="row">
+        <div class="small-8 columns">
+            <div id="filters">
+            <h4> Total Cook Time </h4>
+            <input name="radio" type="checkbox" id="checkbox"> 10 - 15 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 20 - 25 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 30 - 35 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 40 - 45 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 50 - 55 Minutes <br>
+            <br>
+            <h4> Dish Type </h4>
+            <input name="radio" type="checkbox" id="checkbox"> 10 - 15 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 20 - 25 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 30 - 35 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 40 - 45 Minutes <br>
+            <input name="radio" type="checkbox" id="checkbox"> 50 - 55 Minutes <br>
+                </div>
+            
+            </div>
+        
+        <div class="small-12 columns">
+                <div id="signupsearchresults">
+                
+            <h4> Don't Have An Account </h4>
+            <h2> Sign Up! </h2>
+            
+            <p> *Ability to save recipes to your "Cookbook" </p>
+            
+            <p> *Share recipes with friends on Facebook and Twitter </p>
+            
+            <p> *Recieve a free Perfect Recipe T-Shirt </p>
+            
+            <input name="email" type="text" placeholder="Email">
+            
+            <input name="email" type="text" placeholder="Password">
+            
+            <input type="button" id="cookbookbutton" value="Create Account">
+
+        </div>
+                            
+                
+            </div>
+        
+        <div class="medium-12 columns">
+            <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px" class="resultsimage"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            
+            <br>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px" class="resultsimage"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px" class="resultsimage"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            
+              <div id="searchresults">
+           <img src="images/farfalle-ck-1559239-x.jpg" alt="img" width="190px" class="resultsimage"/>
+    <div id="cookbook">
+    <div id="cookbookheader">Mushroom Chicken Creme Pasta</div>
+    <div id="cookbookp"> Prep Time: 20 Minutes </div>
+    <div id="cookbookp"> Cook Time: 15 Minutes </div>
+    <div id="cookbookp"> Total Time: 15 Minutes </div>
+        </div>
+    </div>
+            </div>
+            
+        </div>
+    
+    <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+            <div id="facebook">        
+                <p> Facebook </p>
+            </div>
+    
+        <div id="twitter">        
+            <p> Twitter </p>
+        </div>
+</div>
+                      </div>
+                </div>
+           
+          
+          </div>
       
                 <script src="js/vendor/modernizr.js"></script>
           <script src="js/jquery-1.11.1.min.js"></script>

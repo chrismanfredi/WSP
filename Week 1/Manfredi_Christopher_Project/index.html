@@ -19,6 +19,7 @@ Large Screens
     <title> Homepage </title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -62,43 +63,42 @@ Large Screens
 
     <div class="row">
         <div class="large-9 columns">
-            <div class="large-4 columns">
-            <img src="images/pizza.jpg" alt="featureditem" id="pizza">
+            <div class="row">
+                <div class="large-4 columns">
+                <img src="images/pizza.jpg" alt="featureditem" id="pizza">
+                </div>
+
+                <div class="large-4 columns">
+                <img src="images/featureditem.jpg" alt="featureditem" id="featureditem">
+                </div>
+
+                <div class="large-4 columns">
+                <img src="images/Triple_Chocolate_ICe_Cream_Cake.JPG" alt="featureditem" id="cake">
+
+                </div>
+            </div>                                                       
+           <div class="row">
+                <div class="large-4 columns">
+                    <img src="images/Triple_Chocolate_ICe_Cream_Cake.JPG" alt="featureditem" id="cake1" height="30px">
+                </div>                                                                     <div class="large-4 columns">
+                     <img src="images/grilled-cheese-with-bacon.jpg" alt="featureditem" id="grilledcheese">
+                </div>
+                <div class="large-4 columns">
+                    <img src="images/Grilled-Shrimp.jpg" alt="featureditem" id="cesarsalad">
+                </div>
             </div>
-            
-            <div class="large-4 columns">
-            <img src="images/featureditem.jpg" alt="featureditem" id="featureditem">
             </div>
-            
-            <div class="large-4 columns">
-            <img src="images/Triple_Chocolate_ICe_Cream_Cake.JPG" alt="featureditem" id="cake">
-                
-        </div>
-                                                                                    
-
-                        <img src="images/grilled-cheese-with-bacon.jpg" alt="featureditem" id="grilledcheese">
-                                                                                          <div class="large-3 columns">
-
-                                        <img src="images/Triple_Chocolate_ICe_Cream_Cake.JPG" alt="featureditem" id="pizza1">
-        </div>
-                                                             <div class="large-3 columns">
-      
-                                                              <img src="images/caesar-salad-lower.jpg" alt="featureditem" id="cesarsalad">
-        </div>
-                
-
-    </div>
         
                                     <div class="large-3 columns">
             <div id="homepageform">
             <h3> Don't Have An Account</h3>
             <h2> Sign Up!</h2>
             
-            <p> *Ability to save recipes to your "Cookbook"</p>
+            <p class="signup"> *Ability to save recipes to your "Cookbook"</p>
             
-            <p> *Share recipes with friends on Facebook and Twitter</p>
+            <p class="signup"> *Share recipes with friends on Facebook and Twitter</p>
             
-            <p> *Recieve a free Perfect Recipe T-Shirt</p>
+            <p class="signup"> *Recieve a free Perfect Recipe T-Shirt</p>
             
             <input name="email" type="text" placeholder="Email">
             
@@ -109,19 +109,19 @@ Large Screens
                                 </div>
             </div>
            
-                                  <div class="row">
+    <div class="row">
                 <hr>
       <div class="large-3 columns">
-          <h4> Categories</h4>
-          <p> Burgers </p>
-          <p> Chicken </p>
-          <p> Pasta </p>
-          <p> Pizza </p>
-          <p> Salad </p>
+          <h4 class="footer"> Categories</h4>
+          <p class="footer"> Burgers </p>
+          <p class="footer"> Chicken </p>
+          <p class="footer"> Pasta </p>
+          <p class="footer"> Pizza </p>
+          <p class="footer"> Salad </p>
 
       </div>
     <div class="large-3 columns">
-        <h4> Social Media</h4>
+        <h4 class="footer"> Social Media</h4>
              <div id="facebook">        
         <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
       </div>
@@ -133,10 +133,10 @@ Large Screens
     </div>
                 
                    <div class="large-3 columns">
-        <h4> Menu </h4>
-        <p> Login </p>
-        <p> Cookbook </p>
-        <p> Categories </p>
+        <h4 class="footer"> Menu </h4>
+        <p class="footer"> Login </p>
+        <p class="footer"> Cookbook </p>
+        <p class="footer"> Categories </p>
 
     </div>
                 
@@ -161,7 +161,7 @@ Large Screens
       
 
       
-      <br>
+      
         
 
       
@@ -207,73 +207,100 @@ Large Screens
             <img src="images/featureditem.jpg" alt="featureditem" id="featureditem">
         </div>
     </div>
-      
+          <br>
+          
+                                             <div class="large-3 columns">
+            <div id="homepageform">
+            <h3> Don't Have An Account</h3>
+            
+            <h2> Sign Up!</h2>
+            <center>
+            <p> *Ability to save recipes to your "Cookbook" </p>
+            
+            <p> *Share recipes with friends on Facebook and Twitter</p>
+            
+            <p> *Recieve a free Perfect Recipe T-Shirt</p>
+             </center>
+            
+            <input name="email" type="text" placeholder="Email" id="email">
+            
+            <input name="email" type="text" placeholder="Password" id="password">
+            <center>
+            <input type="button" id="homepagesignup" value="Create Account"></center>
+        </div>
+                                </div>
+        
 
       
     <div class="row" id="mothersday1">
         <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Popular Recipes 222</a>
+            <a href="#" class="homepagecategories"> Pasta </a>
         </div>
             <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Rice </a>
         </div>
          <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Steak </a>
         </div>
          <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Burgers </a>
         </div>
     </div>
     
       <div class="row" id="mothersday1">
         <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories">Top Summer Recipes</a>
+            <a href="#" class="homepagecategories"> Mexican </a>
         </div>
             <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> 30 Minutes Or Less</a>
+            <a href="#" class="homepagecategories"> Italian </a>
         </div>
                    <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Greek </a>
         </div>
          <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Chinese </a>
         </div>
     </div>
       
       <div class="row" id="mothersday1">
-        <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories">Weekend BBQ Recipes</a>
-        </div>
             <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories">Top Dessert Recipes</a>
+            <a href="#" class="homepagecategories">Top Breakfast Recipes</a>
         </div>
         <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Top Lunch Recipes</a>
         </div>
          <div class="small-3 columns" id="mothersday2">
-            <a href="#" class="homepagecategories"> Most Recent Recipes</a>
+            <a href="#" class="homepagecategories"> Top Dinner Recipes</a>
+        </div>
+              <div class="small-3 columns" id="mothersday2">
+            <a href="#" class="homepagecategories"> Top Dessert Recipes </a>
         </div>
     </div>
+          
       
-      <br>
+    
         
             <div class="row">
       <div class="small-12 columns">
           <div id="footer"></div>
           <div id="socialmedia">
-`     <div id="facebook">        
-        <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+`     
+              
+        <div id="facebook">        
+        <p> Facebook </p>
       </div>
     
       <div id="twitter">        
-        <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
+       <p> Twitter </p>
       </div>
 </div>
       </div>
     </div>
             
             </div>
-      <!-- End Tablet Size -->
+
+      
+    <!-- End Tablet Size -->
     
       
       
@@ -282,12 +309,13 @@ Large Screens
       
       
       <!-- Mobile Size -->      
-      <div class="show-for-small-only">
-    <div class="row">
+      
+    <div class="show-for-small-only">
+   <div class="row">
       <div class="small-12 columns">
           <div id="topbar"></div>
-          <img src="Logo/Logo.png" id="perfectrecipe" width="120px" height="100px">
-          <img src="images/hamburger.png" alt="Menu" id="hamburger">
+          <img src="Logo/Logo.png" id="perfectrecipe" width="25%" height="25%">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
       </div>
     </div>
       
@@ -298,6 +326,7 @@ Large Screens
 	   <li><a href="cookbook.html">Cookbook</a></li>
     </ul>
 </div>
+
     
     <div class="row">
         <div class="small-8 columns">
@@ -343,22 +372,22 @@ Large Screens
         </div>
     </div>
       
-      <br>
+    
         
             <div class="row">
       <div class="small-12 columns">
           <div id="footer"></div>
-          <div id="socialmedia">
-     <div id="facebook">        
-        <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
+`     
+              
+        <div id="facebook">        
+        <p> Facebook </p>
       </div>
     
       <div id="twitter">        
-        <a href="#"><img src="images/twitter.png" alt="Twitter" width="50px" height="50px"></a>
+       <p> Twitter </p>
       </div>
 </div>
-      </div>
-    </div>
+                      </div>
         
         </div>
       

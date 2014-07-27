@@ -37,15 +37,15 @@
     
                 </div>
       
-<h2> Sign Up </h2>
+<h1> Sign Up </h1>
     
 <!-- Form Name -->  
       
 <div class="row">
-    <div class="small-12 columns">
-
+    <div class="large-8 columns">
+        
+<form>
 <label for="firstname">Name:</label>
-
 <input name="firstname" type="text" id="fname" placeholder="First Name" autocomplete="off" autofocus>
 
 <label for="lastname"> Last Name: </label>
@@ -84,12 +84,12 @@
 <!-- Email -->  
 
 <label for="email">Email:</label>
-<input name="email" type="text" id="email" placeholder="Email"> @ <input name=".com" type="text" id="com" placeholder=".com" > 
+<input name="email" type="text" id="email" placeholder="Email"> 
     
 <br>
     
 <label for="email">Re-type Email:</label>
-<input name="email" type="text" id="email" placeholder="Email"> @ <input name=".com" type="text" id="com" placeholder=".com" > 
+<input name="email" type="text" id="email" placeholder="Email">
     
 <br>
 
@@ -111,26 +111,43 @@
     
 <!-- Terms & Conditions -->
     
-<label for="gender"> By Checking this box you agree to the Terms & Conditions </label>
-<input name="checkbox" type="checkbox" id="checkbox">
+<label for="terms">Agree to the Terms & Conditions</label>
+<input name="terms" type="checkbox" id="checkbox">
     
 <br>
     
-<input type="button" id="checkbox" value="Create Account">
+<input type="button" id="createaccount" value="Create Account">
+    </div>
         
-          <div class="row">
+        <div class="large-4 columns">
+            
+                        <div id="benefits">
+           <h3> Don't Have An Account</h3>
+            <h2> Sign Up!</h2>
+            
+            <p> *Ability to save recipes to your "Cookbook"</p>
+            
+            <p> *Share recipes with friends on Facebook and Twitter</p>
+            
+            <p> *Recieve a free Perfect Recipe T-Shirt</p>
+            
+            </div>
+            </div>
+            </form>
+        
+                                       <div class="row">
                 <hr>
       <div class="large-3 columns">
-          <h4> Categories</h4>
-          <p> Burgers </p>
-          <p> Chicken </p>
-          <p> Pasta </p>
-          <p> Pizza </p>
-          <p> Salad </p>
+          <h4 class="footer"> Categories</h4>
+          <p class="footer"> Burgers </p>
+          <p class="footer"> Chicken </p>
+          <p class="footer"> Pasta </p>
+          <p class="footer"> Pizza </p>
+          <p class="footer"> Salad </p>
 
       </div>
     <div class="large-3 columns">
-        <h4> Social Media</h4>
+        <h4 class="footer"> Social Media</h4>
              <div id="facebook">        
         <a href="#"><img src="images/facebook.png" alt="Facebook" width="50px" height="50px"></a>
       </div>
@@ -142,10 +159,10 @@
     </div>
                 
                    <div class="large-3 columns">
-        <h4> Menu </h4>
-        <p> Login </p>
-        <p> Cookbook </p>
-        <p> Categories </p>
+        <h4 class="footer"> Menu </h4>
+        <p class="footer"> Login </p>
+        <p class="footer"> Cookbook </p>
+        <p class="footer"> Categories </p>
 
     </div>
                 
@@ -157,10 +174,280 @@
             
             </div>
         
+        
+    </div>
+</div>
+      
+      
+      
+      
+        <div class="show-for-medium-only">
+            
+            
+
+ <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe" width="110px" height="250px">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
+      </div>
+    </div>
+      
+            <div id="hamburgermenu">
+    <ul id="menu">
+       <li><a href="index.html">Home</a></li>
+	   <li><a href="categories.html">Categorites</a></li>
+	   <li><a href="cookbook.html">Cookbook</a></li>
+    </ul>
+</div>
+
+      <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
+                      
+      
+<h1> Sign Up </h1>
+    
+<!-- Form Name -->  
+      
+<div class="row">
+    <div class="small-12 columns">
+
+<label for="firstname">Name:</label>
+
+<input name="firstname" type="text" id="fname" placeholder="First Name" autocomplete="off" autofocus>
+
+<label for="lastname"> Last Name: </label>
+<input name="lastname" type="text" id="lname" placeholder="Last Name" autocomplete="off" autofocus>
+        
+<br>
+
+<!-- Form Gender -->   
+
+<label for="gender">Gender:</label>
+
+<label for="gender">Male</label>
+<input name="gender" type="radio" id="male">
+    
+<label for="gender">Female</label>
+<input name="gender" type="radio" id="female">
+    
+<br>
+
+<!-- Form Birthday -->   
+
+<label for="birthday">Birthday:</label>
+
+<input name="birthday" type="text" id="projectDueDate" class="mydatepicker">
+    
+<br>
+
+<!-- Email & Password --> 
+    
+<h1> Email & Password </h1>
+    
+<hr>
+    
+<br>
+
+<!-- Email -->  
+
+<label for="email">Email:</label>
+<input name="email" type="text" id="email" placeholder="Email">
+    
+<br>
+    
+<label for="email">Re-type Email:</label>
+<input name="email" type="text" id="email" placeholder="Email">
+    
+<br>
+
+<!-- Email -->  
+
+<label for="email">Password:</label>
+<input name="email" type="text" id="email" placeholder="Password">
+    
+<br>
+    
+<label for="email">Re-type Password:</label>
+<input name="email" type="text" id="email" placeholder="Password">
+    
+<br>
+    
+<h1> Terms & Conditions </h1>
+    
+
+    
+<!-- Terms & Conditions -->
+    
+<label for="terms"> By Checking this box you agree to the Terms & Conditions </label>
+<input name="checkbox" type="checkbox" id="checkbox">
+    
+<br>
+    
+<input type="button" id="createaccount" value="Create Account">
+                  
+          <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+          <div id="socialmedia">
+`     
+              
+        <div id="facebook">        
+        <p> Facebook </p>
+      </div>
+    
+      <div id="twitter">        
+       <p> Twitter </p>
+      </div>
+</div>
+                      </div>
+                </div>
         </div>
     </div>
 </div>
 
+      
+      
+        
+            
+            
+            
+            
+            
+            
+            
+            <div class="show-for-small-only">
+ <div class="row">
+      <div class="small-12 columns">
+          <div id="topbar"></div>
+          <img src="Logo/Logo.png" id="perfectrecipe" width="110px" height="250px">
+          <img src="images/hamburger.png" alt="Menu" id="hamburger" width="20%" height="20%">
+      </div>
+    </div>
+      
+            <div id="hamburgermenu">
+    <ul id="menu">
+       <li><a href="index.html">Home</a></li>
+	   <li><a href="categories.html">Categorites</a></li>
+	   <li><a href="cookbook.html">Cookbook</a></li>
+    </ul>
+</div>
+
+      <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Search.." id="searchbar">
+        </div>
+        <div class="small-4 columns">
+            <input type="submit" value="Search" id="search"> 
+        </div>
+    </div>
+      
+<h1> Sign Up </h1>
+    
+<!-- Form Name -->  
+      
+<div class="row">
+    <div class="small-12 columns">
+
+<label for="firstname">Name:</label>
+
+<input name="firstname" type="text" id="fname" placeholder="First Name" autocomplete="off" autofocus>
+
+<label for="lastname"> Last Name: </label>
+<input name="lastname" type="text" id="lname" placeholder="Last Name" autocomplete="off" autofocus>
+        
+<br>
+
+<!-- Form Gender -->   
+
+<label for="gender">Gender:</label>
+
+<label for="gender">Male</label>
+<input name="gender" type="radio" id="male">
+    
+<label for="gender">Female</label>
+<input name="gender" type="radio" id="female">
+    
+<br>
+
+<!-- Form Birthday -->   
+
+<label for="birthday">Birthday:</label>
+
+<input name="birthday" type="text" id="projectDueDate" class="mydatepicker">
+    
+<br>
+
+<!-- Email & Password --> 
+    
+<h1> Email & Password </h1>
+    
+<hr>
+    
+<br>
+
+<!-- Email -->  
+
+<label for="email">Email:</label>
+<input name="email" type="text" id="email" placeholder="Email">
+    
+<br>
+    
+<label for="email">Re-type Email:</label>
+<input name="email" type="text" id="email" placeholder="Email">
+    
+<br>
+
+<!-- Email -->  
+
+<label for="email">Password:</label>
+<input name="email" type="text" id="email" placeholder="Password">
+    
+<br>
+    
+<label for="email">Re-type Password:</label>
+<input name="email" type="text" id="email" placeholder="Password">
+    
+<br>
+    
+<h1> Terms & Conditions </h1>
+    
+
+    
+<!-- Terms & Conditions -->
+    
+<label for="gender"> By Checking this box you agree to the Terms & Conditions </label>
+<input name="checkbox" type="checkbox" id="checkbox">
+    
+<br>
+    
+<input type="button" id="createaccount" value="Create Account">
+        
+              <div class="row">
+      <div class="small-12 columns">
+          <div id="footer"></div>
+`     
+              
+        <div id="facebook">        
+        <p> Facebook </p>
+      </div>
+    
+      <div id="twitter">        
+       <p> Twitter </p>
+      </div>
+</div>
+                      </div>
+                </div>
+        
+        </div>
+    </div>
+</div>
             
 
         
